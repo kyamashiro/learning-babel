@@ -2,6 +2,11 @@
 
 https://babeljs.io/docs/en/usage
 
+JSをJSに変換してくれる(トランスパイル)。  
+新しい記法で書かれたJSファイルを古い記法に変換して互換性のないブラウザにも対応するようにしてくれる。  
+https://github.com/sebmck/babel#intro  
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator  
+
 ## 使用方法
 
 ```
