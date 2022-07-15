@@ -5,9 +5,9 @@ https://babeljs.io/docs/en/usage
 ## 使用方法
 
 ```
-npm i
+$ npm i
 
-npx babel index.js
+$ npx babel index.js
 "use strict";
 
 const test = true;
@@ -17,7 +17,7 @@ console.log(test !== null && test !== void 0 ? test : 'false');
 ## ビルド
 
 ```shell
-npx babel index.js --out-dir dist/ --source-maps
+$ npx babel index.js --out-dir dist/ --source-maps
 
 Successfully compiled 1 file with Babel (207ms).
 ```
@@ -27,7 +27,7 @@ Successfully compiled 1 file with Babel (207ms).
 ## CLIでの動作
 
 ```shell
-node cli.js
+$ node cli.js
 
 source code
 ===========================
